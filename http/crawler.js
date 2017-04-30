@@ -50,7 +50,7 @@ function crawler() {
                 printCommentData(commentData);
             })
         }).on('error', function () {
-            console.log('获取网易云音乐评论出错！');
+            console.log('获取评论出错！');
         })
     }
 
